@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="3.0" unique-identifier="unique-id" xmlns="http://www.idpf.org/2007/opf">
+
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<dc:title>书名</dc:title>
+<dc:creator>作者</dc:creator>
+
+<dc:language>zh</dc:language>
+
+<meta property="dcterms:modified">2025-07-09T17:02:14Z</meta>
+<meta name="cover" content="cover.jpg" />
+</metadata>
+
+<manifest>
+
+<item id="nav.xhtml" href="xhtml/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+
+<item id="style.css" href="style/style.css" media-type="text/css"/>
+
+<item id="cover.jpg" href="image/cover.jpg" media-type="image/jpeg" properties="cover-image"/>
+<item id="toc.jpg" href="image/toc.jpg" media-type="image/jpeg"/>
+<item id="illus-1.jpg" href="image/illus-1.jpg" media-type="image/jpeg"/>
+<item id="ch-1.jpg" href="image/ch-1.jpg" media-type="image/jpeg"/>
+<item id="back.jpg" href="image/back.jpg" media-type="image/jpeg"/>
+
+<item id="cover.xhtml" href="xhtml/cover.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+<item id="titlepage.xhtml" href="xhtml/titlepage.xhtml" media-type="application/xhtml+xml"/>
+<item id="colophon.xhtml" href="xhtml/colophon.xhtml" media-type="application/xhtml+xml"/>
+<item id="info.xhtml" href="xhtml/info.xhtml" media-type="application/xhtml+xml"/>
+<item id="fmatter.xhtml" href="xhtml/fmatter.xhtml" media-type="application/xhtml+xml"/>
+<item id="illustration.xhtml" href="xhtml/illustration.xhtml" media-type="application/xhtml+xml"/>
+<item id="toc.xhtml" href="xhtml/toc.xhtml" media-type="application/xhtml+xml"/>
+<item id="chap-0.xhtml" href="xhtml/chap-0.xhtml" media-type="application/xhtml+xml"/>
+<item id="chap-1.xhtml" href="xhtml/chap-1.xhtml" media-type="application/xhtml+xml"/>
+<item id="afterword.xhtml" href="xhtml/afterword.xhtml" media-type="application/xhtml+xml"/>
+<item id="author.xhtml" href="xhtml/author.xhtml" media-type="application/xhtml+xml"/>
+<item id="publisher.xhtml" href="xhtml/publisher.xhtml" media-type="application/xhtml+xml"/>
+<item id="back.xhtml" href="xhtml/back.xhtml" media-type="application/xhtml+xml"/>
+<item id="pamphlet.xhtml" href="xhtml/pamphlet.xhtml" media-type="application/xhtml+xml"/>
+<item id="pam-1.xhtml" href="xhtml/pam-1.xhtml" media-type="application/xhtml+xml"/>
+
+</manifest>
+
+<spine>
+
+<itemref idref="cover.xhtml"/>
+<itemref idref="titlepage.xhtml"/>
+<itemref idref="colophon.xhtml"/>
+<itemref idref="info.xhtml"/>
+<itemref idref="fmatter.xhtml"/>
+<itemref idref="illustration.xhtml"/>
+<itemref idref="toc.xhtml"/>
+<itemref idref="chap-0.xhtml"/>
+<itemref idref="chap-1.xhtml"/>
+<itemref idref="afterword.xhtml"/>
+<itemref idref="author.xhtml"/>
+<itemref idref="publisher.xhtml"/>
+<itemref idref="back.xhtml"/>
+<itemref idref="pamphlet.xhtml"/>
+<itemref idref="pam-1.xhtml"/>
+<itemref idref="nav.xhtml" linear="no"/>
+
+</spine>
+
+</package>
