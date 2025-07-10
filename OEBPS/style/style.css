@@ -22,7 +22,9 @@ small {
 }
 
 .ch {
-  font-size: 0.7em
+  font-size: 0.7em;
+  display: block;
+  margin-bottom: 1em
 }
 
 .no {
