@@ -8,19 +8,20 @@
 
 <dc:language>zh</dc:language>
 
+<dc:identifier id="unique-id">urn:uuid:d7a8d311-7cd0-40df-9443-65847561dacf</dc:identifier>
+
 <meta property="dcterms:modified">2025-07-09T17:02:14Z</meta>
+
 <meta name="cover" content="cover.jpg" />
 </metadata>
 
 <manifest>
 
-<item id="nav.xhtml" href="xhtml/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
-
-<item id="style.css" href="style/style.css" media-type="text/css"/>
-
 <item id="cover.jpg" href="image/cover.jpg" media-type="image/jpeg" properties="cover-image"/>
 <item id="toc.jpg" href="image/toc.jpg" media-type="image/jpeg"/>
 <item id="illus-1.jpg" href="image/illus-1.jpg" media-type="image/jpeg"/>
+<item id="illus-2.jpg" href="image/illus-2.jpg" media-type="image/jpeg"/>
+<item id="illus-3.jpg" href="image/illus-3.jpg" media-type="image/jpeg"/>
 <item id="ch-1.jpg" href="image/ch-1.jpg" media-type="image/jpeg"/>
 <item id="back.jpg" href="image/back.jpg" media-type="image/jpeg"/>
 
@@ -30,15 +31,29 @@
 <item id="info.xhtml" href="xhtml/info.xhtml" media-type="application/xhtml+xml"/>
 <item id="fmatter.xhtml" href="xhtml/fmatter.xhtml" media-type="application/xhtml+xml"/>
 <item id="illustration.xhtml" href="xhtml/illustration.xhtml" media-type="application/xhtml+xml"/>
+<item id="character.xhtml" href="xhtml/character.xhtml" media-type="application/xhtml+xml"/>
 <item id="toc.xhtml" href="xhtml/toc.xhtml" media-type="application/xhtml+xml"/>
 <item id="chap-0.xhtml" href="xhtml/chap-0.xhtml" media-type="application/xhtml+xml"/>
 <item id="chap-1.xhtml" href="xhtml/chap-1.xhtml" media-type="application/xhtml+xml"/>
+<item id="chap-2.xhtml" href="xhtml/chap-2.xhtml" media-type="application/xhtml+xml"/>
+<item id="chap-3.xhtml" href="xhtml/chap-3.xhtml" media-type="application/xhtml+xml"/>
+<item id="chap-4.xhtml" href="xhtml/chap-4.xhtml" media-type="application/xhtml+xml"/>
+<item id="chap-5.xhtml" href="xhtml/chap-5.xhtml" media-type="application/xhtml+xml"/>
+<item id="chap-6.xhtml" href="xhtml/chap-6.xhtml" media-type="application/xhtml+xml"/>
+<item id="chap-7.xhtml" href="xhtml/chap-7.xhtml" media-type="application/xhtml+xml"/>
+<item id="chap-8.xhtml" href="xhtml/chap-8.xhtml" media-type="application/xhtml+xml"/>
+<item id="chap-9.xhtml" href="xhtml/chap-9.xhtml" media-type="application/xhtml+xml"/>
+<item id="chap-10.xhtml" href="xhtml/chap-10.xhtml" media-type="application/xhtml+xml"/>
 <item id="afterword.xhtml" href="xhtml/afterword.xhtml" media-type="application/xhtml+xml"/>
 <item id="author.xhtml" href="xhtml/author.xhtml" media-type="application/xhtml+xml"/>
-<item id="publisher.xhtml" href="xhtml/publisher.xhtml" media-type="application/xhtml+xml"/>
+<item id="feedback.xhtml" href="xhtml/feedback.xhtml" media-type="application/xhtml+xml"/>
 <item id="back.xhtml" href="xhtml/back.xhtml" media-type="application/xhtml+xml"/>
 <item id="pamphlet.xhtml" href="xhtml/pamphlet.xhtml" media-type="application/xhtml+xml"/>
 <item id="pam-1.xhtml" href="xhtml/pam-1.xhtml" media-type="application/xhtml+xml"/>
+
+<item id="style.css" href="style/style.css" media-type="text/css"/>
+
+<item id="nav.xhtml" href="xhtml/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 
 </manifest>
 
@@ -50,12 +65,22 @@
 <itemref idref="info.xhtml"/>
 <itemref idref="fmatter.xhtml"/>
 <itemref idref="illustration.xhtml"/>
+<itemref idref="character.xhtml"/>
 <itemref idref="toc.xhtml"/>
 <itemref idref="chap-0.xhtml"/>
 <itemref idref="chap-1.xhtml"/>
+<itemref idref="chap-2.xhtml"/>
+<itemref idref="chap-3.xhtml"/>
+<itemref idref="chap-4.xhtml"/>
+<itemref idref="chap-5.xhtml"/>
+<itemref idref="chap-6.xhtml"/>
+<itemref idref="chap-7.xhtml"/>
+<itemref idref="chap-8.xhtml"/>
+<itemref idref="chap-9.xhtml"/>
+<itemref idref="chap-10.xhtml"/>
 <itemref idref="afterword.xhtml"/>
 <itemref idref="author.xhtml"/>
-<itemref idref="publisher.xhtml"/>
+<itemref idref="feedback.xhtml"/>
 <itemref idref="back.xhtml"/>
 <itemref idref="pamphlet.xhtml"/>
 <itemref idref="pam-1.xhtml"/>
